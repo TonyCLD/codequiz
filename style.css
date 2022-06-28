@@ -1,0 +1,29 @@
+.score_n_time {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(5, 98, 169);
+    font-weight: 800;
+} 
+.quizHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.startQuiz {
+    background-color: rgb(5, 98, 169);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wrap {
+    display: flex;
+
+}
