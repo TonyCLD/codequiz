@@ -11,7 +11,7 @@
 
     <nav class="score_n_time">
         <div class="highscore">View High Score</div>
-        <div class="timer">Time: 0</div>        
+        <div class="timerbox">Timer:&nbsp;<span id="count">30</span>&nbsp;sec.</div>
     </nav>
 
 <section class="wholepage">   
@@ -21,7 +21,15 @@
 <div class="wrap">
 <span class=quizHeader>Coding Quiz Challenge</span>
     <p id="initialText">Try to answer the following code-related questions within the time limit. Keep in mind that the incorrect answer will penalize your score/time by 10 seconds!</p>
-    <button class="startQuiz">Start Quiz</button>
+
+    <!-- <span id="count">5</span> seconds
+    <br> -->
+    <button onclick="start()">
+    Begin Quiz
+    </button>
+
+
+    <!-- <button id="startQuiz">Start Quiz</button> -->
 </div>
 
 <div class="right-col"></div>

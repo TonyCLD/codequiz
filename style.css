@@ -7,6 +7,17 @@
     font-weight: 800;
 }
 
+.timerbox {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(5, 98, 169);
+    font-weight: 800;
+    
+}
+
+
 .highscore {
 
 }
@@ -33,7 +44,7 @@ p {
     text-align: center;
 }
 
-.startQuiz {
+#startQuiz {
     background-color: rgb(5, 98, 169);
     color: white;
     font-size: 20px;
@@ -57,3 +68,19 @@ p {
 
 
 }
+
+button
+{
+    background-color: rgb(5, 98, 169);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    align-self: center;
+}
+/* #count
+{
+   margin-left:20px;
+   font-size:30px;
+   color:black;
+} */
