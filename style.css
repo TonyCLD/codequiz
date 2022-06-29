@@ -84,3 +84,41 @@ button
    font-size:30px;
    color:black;
 } */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(142, 182, 171);;
+    }
+.score_n_time {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(5, 98, 169);
+    font-weight: 800;
+    margin-bottom: 16px;
+    }
+    .timerbox {
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        color: rgb(5, 98, 169);
+        font-weight: 800;
+        
+    }
+.wrap {
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+} 
+.quizHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+}
+  .overall {
+    flex-wrap: wrap;
+  }
+}
