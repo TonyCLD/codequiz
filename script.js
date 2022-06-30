@@ -41,7 +41,9 @@ function startTimer()
     var d_buttonEl = document.querySelector('.d_button');
     d_buttonEl.innerHTML = 'D: Miami';
     d_buttonEl.style.display = 'unset';
-    
+
+    var extrapixEl = document.querySelector('.extrapix');
+    extrapixEl.style.display = 'unset';
 
 }
 
