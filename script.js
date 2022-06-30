@@ -21,7 +21,28 @@ function startTimer()
     
     var initialTextEl = document.querySelector('#initialText')
     initialTextEl.innerHTML = 'Ben Brower played John Crichtion in sci-fi television show Farscape. In what city did he grow up?';
-console.log(initialTextEl);
+    console.log(initialTextEl);
+
+    var startbuttonEl = document.querySelector('.startbutton');
+    startbuttonEl.style.display = 'none';
+
+    var a_buttonEl = document.querySelector('.a_button');
+    a_buttonEl.style.display = 'unset';
+    a_buttonEl.innerHTML = 'A: Charlotte, NC';
+
+    var b_buttonEl = document.querySelector('.b_button');
+    b_buttonEl.style.display = 'unset';
+    b_buttonEl.innerHTML = 'B: Hollywood, CA';
+
+    var c_buttonEl = document.querySelector('.c_button');
+    c_buttonEl.style.display = 'unset';
+    c_buttonEl.innerHTML = 'C: New York City';
+
+    var d_buttonEl = document.querySelector('.d_button');
+    d_buttonEl.innerHTML = 'D: Miami';
+    d_buttonEl.style.display = 'unset';
+    
+
 }
 
 function start()

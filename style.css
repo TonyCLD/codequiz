@@ -75,7 +75,8 @@ button
     color: white;
     font-size: 20px;
     font-weight: 600;
-    width: 50%;
+    width: 75%;
+    margin:10px
     align-self: center;
 }
 /* #count
@@ -107,6 +108,18 @@ button
         font-weight: 800;
         
     }
+.a_button {
+    display: none;
+}
+.b_button {
+    display: none;
+}
+.c_button {
+    display: none;
+}
+.d_button {
+    display: none;
+}
 .wrap {
   display: inline-block;
   width: 90%;
