@@ -83,6 +83,20 @@ button
 
 }
 
+button2
+{
+    background-color: rgb(5, 98, 169);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    width: 75%;
+    margin:10px;
+    display: flex;
+    align-self: center;
+
+}
+
+
 .a_button {
     display: none;
 }
@@ -93,6 +107,18 @@ button
     display: none;
 }
 .d_button {
+    display: none;
+}
+.a_button2 {
+    display: none;
+}
+.b_button2 {
+    display: none;
+}
+.c_button2 {
+    display: none;
+}
+.d_button2 {
     display: none;
 }
 /* #count
